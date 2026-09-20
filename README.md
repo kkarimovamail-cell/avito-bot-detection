@@ -12,12 +12,16 @@
 
 ```
 bot_detection_challenge/
-├── data/                 # данные: train.csv, test.csv, events.csv.gz
-└── solution/
-    ├── solution_v3.ipynb # ГОТОВЫЙ ноутбук: признаки → валидация → сабмит
-    ├── requirements.txt  # зависимости
-    ├── submission.csv    # готовый файл для отправки
-    └── README.md
+├── README.md          
+├── .gitignore            
+├── data/                  
+│   ├── train.csv          
+│   ├── test.csv          
+│   └── events.csv.gz    
+└── solution/            
+    ├── solution_v3.ipynb  
+    ├── requirements.txt  
+    └── submission.csv
 ```
 
 Метрика кейса (Precision при Recall ≥ 0.70) реализована прямо в ноутбуке —
